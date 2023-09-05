@@ -15,7 +15,8 @@ class Dog:
     def play(self):
         print(f"{self.name} 在快乐的玩耍")
 
-
+print(__name__)
+# 在__name__ 变量的帮助下，你可以判断出这时代码是被直接运行，还是被导入到其他程序中去了。
 
 if __name__ == '__main__':
     # 调用函数
